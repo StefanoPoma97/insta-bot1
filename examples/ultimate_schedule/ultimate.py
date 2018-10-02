@@ -227,6 +227,10 @@ if (argv[1] == "liketimeline"):
     print("like a timeline")
     like_timeline()
 
+if (argv[1] == "like"):
+    print("like from hashtag")
+    like_hashtags()
+
 
 if (argv[1] == "all"):
     schedule.every(1).hour.do(run_threaded, stats)
