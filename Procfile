@@ -1,1 +1,1 @@
-web: python3 examples/ultimate_schedule_test.py day
+web: python3 examples/ultimate_schedule/stampo.py
