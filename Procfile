@@ -1,1 +1,1 @@
-web: python3 instabot/examples/ultimate_schedule_test.py
+web: python3 examples/ultimate_schedule_test.py
