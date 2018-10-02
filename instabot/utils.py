@@ -51,9 +51,8 @@ class file(object):
             self.save_list(items)
 
     def random(self):
-        a = random.choice(self.list)
-        print("Ecco cosa contine: " + a)
-        return a
+        print("cosa contiene la lista: " + list)
+        return random.choice(self.list)
 
     def remove_duplicates(self):
         return list(OrderedDict.fromkeys(self.list))
