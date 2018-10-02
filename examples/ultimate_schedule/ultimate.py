@@ -228,7 +228,6 @@ if (argv[1] == "liketimeline"):
     like_timeline()
 
 if (argv[1] == "like"):
-    print("il file contiene questo: " + random_hashtag_file_like)
     print("like from hashtag")
     like_hashtags()
 
