@@ -7,15 +7,15 @@ import os
 import sys
 import threading
 import time
-import config
+import config_file
 from sys import argv
 
 sys.path.append(os.path.join(sys.path[0], '../../'))
 
-bot = Bot(comments_file=config.COMMENTS_FILE,
-          blacklist_file=config.BLACKLIST_FILE,
-          whitelist_file=config.WHITELIST_FILE,
-          friends_file=config.FRIENDS_FILE,
+bot = Bot(comments_file=config_file.COMMENTS_FILE,
+          blacklist_file=config_file.BLACKLIST_FILE,
+          whitelist_file=config_file.WHITELIST_FILE,
+          friends_file=config_file.FRIENDS_FILE,
           followed_file='followed.txt',
           unfollowed_file='unfollowed.txt',
           skipped_file='skipped.txt',
@@ -55,14 +55,14 @@ bot = Bot(comments_file=config.COMMENTS_FILE,
 bot.login(username="stefano.nature", password="maziamazia97")
 bot.logger.info("ULTIMATE script. Safe to run 24/7!")
 
-random_user_file = utils.file(config.USERS_FILE)
-random_hashtag_file_like = utils.file(config.HASHTAGS_FILE_LIKE)
-random_hashtag_file_follow = utils.file(config.HASHTAGS_FILE_FOLLOW)
-photo_captions_file = utils.file(config.PHOTO_CAPTIONS_FILE)
-posted_pic_list = utils.file(config.POSTED_PICS_FILE).list
+random_user_file = utils.file(config_file.USERS_FILE)
+random_hashtag_file_like = utils.file(config_file.HASHTAGS_FILE_LIKE)
+random_hashtag_file_follow = utils.file(config_file.HASHTAGS_FILE_FOLLOW)
+photo_captions_file = utils.file(config_file.PHOTO_CAPTIONS_FILE)
+posted_pic_list = utils.file(config_file.POSTED_PICS_FILE).list
 
 pics = sorted([os.path.basename(x) for x in
-               glob(config.PICS_PATH + "/*.jpg")])
+               glob(config_file.PICS_PATH + "/*.jpg")])
 
 
 def stats():
@@ -96,7 +96,7 @@ def comment_medias():
 
 def unfollow_non_followers():
     print("unfollow")
-    bot.unfollow_non_followers(n_to_unfollows=config.NUMBER_OF_NON_FOLLOWERS_TO_UNFOLLOW)
+    bot.unfollow_non_followers(n_to_unfollows=config_file.NUMBER_OF_NON_FOLLOWERS_TO_UNFOLLOW)
 
 def unfollow_everyone():
     print("unfollow_everyone")
@@ -109,8 +109,8 @@ def unfollow_everyone():
 
 def follow_users_from_hastag_file():
     print("follow da file hashtag")
-    print(config.BLOCK)
-    if config.BLOCK:
+    print(config_file.BLOCK)
+    if config_file.BLOCK:
         print("non seguo nessuno")
     else:
         print("inizio a seguire")
@@ -119,13 +119,13 @@ def follow_users_from_hastag_file():
 
 def block_follow():
     print("blocca follow")
-    config.BLOCK = True
-    print(config.BLOCK)
+    config_file.BLOCK = True
+    print(config_file.BLOCK)
 
 def allow_follow():
     print("allow follow")
-    config.BLOCK = False
-    print(config.BLOCK)
+    config_file.BLOCK = False
+    print(config_file.BLOCK)
 
 
 def comment_hashtag():
@@ -141,9 +141,9 @@ def upload_pictures():  # Automatically post a pic in 'pics' folder
                 continue
 
             caption = photo_captions_file.random()
-            full_caption = caption + "\n" + config.FOLLOW_MESSAGE
+            full_caption = caption + "\n" + config_file.FOLLOW_MESSAGE
             bot.logger.info("Uploading pic with caption: " + caption)
-            bot.upload_photo(config.PICS_PATH + pic, caption=full_caption)
+            bot.upload_photo(config_file.PICS_PATH + pic, caption=full_caption)
             if bot.api.last_response.status_code != 200:
                 bot.logger.error("Something went wrong, read the following ->\n")
                 bot.logger.error(bot.api.last_response)
@@ -159,7 +159,7 @@ def upload_pictures():  # Automatically post a pic in 'pics' folder
                 bot.logger.info("Commenting uploaded photo with hashtags...")
                 medias = bot.get_your_medias()
                 last_photo = medias[0]  # Get the last photo posted
-                bot.comment(last_photo, config.PICS_HASHTAGS)
+                bot.comment(last_photo, config_file.PICS_HASHTAGS)
                 break
     except Exception as e:
         bot.logger.error("Couldn't upload pic")
