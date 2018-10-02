@@ -1,5 +1,0 @@
-File "/app/instabot/bot/bot.py", line 307, in get_timeline_medias
-    return get_timeline_medias(self)
-  File "/app/instabot/bot/bot_get.py", line 46, in get_timeline_medias
-    return self.filter_medias(self.api.last_json["items"], filtration)
-KeyError: 'items'

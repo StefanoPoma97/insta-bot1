@@ -51,7 +51,6 @@ class file(object):
             self.save_list(items)
 
     def random(self):
-        print("cosa contiene la lista: " + str(self.list))
         return random.choice(self.list)
 
     def remove_duplicates(self):

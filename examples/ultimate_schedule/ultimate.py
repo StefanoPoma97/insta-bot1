@@ -228,6 +228,10 @@ if (argv[1] == "liketimeline"):
     like_timeline()
 
 if (argv[1] == "like"):
+    f = open("hashtag_database.txt", 'r')
+    file_contents = f.read()
+    print("file content")
+    print(file_contents)
     print("like from hashtag")
     like_hashtags()
 

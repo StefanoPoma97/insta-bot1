@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0cafb6-2f6f-4180-a77e-496c6834bfeb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Documento senza nome" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule/stefano.nature.checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ultimate_schedule/stefano.nature.checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/blacklist.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/comments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/cookie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/followed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/friends.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/hashtag_database.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/hashtag_database_follow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/photo_captions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/pics.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/skipped.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/stefano.nature.checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/unfollowed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/username_database.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/whitelist.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/instabot/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/instabot/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,24 +51,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="205" />
+          <entry key="py" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="205" />
+          <entry key="Python" value="259" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="229" column="23" selection-start-line="229" selection-start-column="23" selection-end-line="229" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="232" column="23" selection-start-line="232" selection-start-column="23" selection-end-line="232" selection-end-column="23" />
               <folding>
                 <element signature="e#25#46#0" expanded="true" />
               </folding>
@@ -56,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instabot/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="780">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
@@ -70,7 +90,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule/config_file.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -120,8 +144,8 @@
       <list>
         <option value="$PROJECT_DIR$/instabot/bot/bot_get.py" />
         <option value="$PROJECT_DIR$/examples/ultimate_schedule/stampo.py" />
-        <option value="$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py" />
         <option value="$PROJECT_DIR$/instabot/utils.py" />
+        <option value="$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py" />
       </list>
     </option>
   </component>
@@ -288,25 +312,29 @@
         <state relative-caret-position="-4815" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule/config_file.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py">
+    <entry file="file://$PROJECT_DIR$/instabot/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="229" column="23" selection-start-line="229" selection-start-column="23" selection-end-line="229" selection-end-column="23" />
+        <state relative-caret-position="780">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding>
-            <element signature="e#25#46#0" expanded="true" />
+            <element signature="e#1#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instabot/utils.py">
+    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule/config_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="232" column="23" selection-start-line="232" selection-start-column="23" selection-end-line="232" selection-end-column="23" />
           <folding>
-            <element signature="e#1#14#0" expanded="true" />
+            <element signature="e#25#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
