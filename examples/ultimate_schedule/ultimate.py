@@ -228,6 +228,7 @@ if (argv[1] == "liketimeline"):
     like_timeline()
 
 if (argv[1] == "like"):
+    print("il file contiene questo: " + config_file.HASHTAGS_FILE_LIKE)
     print("like from hashtag")
     like_hashtags()
 
