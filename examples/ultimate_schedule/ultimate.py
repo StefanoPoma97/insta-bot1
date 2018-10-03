@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import random
 from glob import glob
 import schedule
 from instabot import Bot, utils
@@ -55,6 +55,9 @@ bot = Bot(comments_file=config_file.COMMENTS_FILE,
 bot.login(username="stefano.nature", password="maziamazia97")
 bot.logger.info("ULTIMATE script. Safe to run 24/7!")
 
+f = open("hashtag_database.txt", 'r')
+hashtag_file_like_list = [f.read().split('\n')]
+
 random_user_file = utils.file(config_file.USERS_FILE)
 random_hashtag_file_like = utils.file(config_file.HASHTAGS_FILE_LIKE)
 random_hashtag_file_follow = utils.file(config_file.HASHTAGS_FILE_FOLLOW)
@@ -73,6 +76,7 @@ def stats():
 def like_hashtags():
     print("like_hashtag")
     bot.like_hashtag(random_hashtag_file_like.random(), amount=30)
+    #bot.like_hashtag(random.choice(hashtag_file_like_list), amount=30)
 
 
 def like_timeline():
@@ -228,11 +232,12 @@ if (argv[1] == "liketimeline"):
     like_timeline()
 
 if (argv[1] == "like"):
-    f = open("hashtag_database.txt", 'r')
-    file_contents = f.read()
-    print("file content")
-    print(file_contents)
-    print("like from hashtag")
+    # f = open("hashtag_database.txt", 'r')
+    # file_contents = f.read()
+    # print("file content")
+    # print(file_contents)
+    # print(hashtag_file_like_list)
+    # print("like from hashtag")
     like_hashtags()
 
 
