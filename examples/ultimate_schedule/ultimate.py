@@ -308,7 +308,6 @@ if (argv[1] == "day"):
     schedule.every(113).minutes.do(run_threaded, like_timeline)  # amount=20 delay=60 max_a_day=1000
     schedule.every(1).hours.do(run_threaded, follow_users_from_hastag_file)  #25 ogni volta
 
-
     while True:
         schedule.run_pending()
         time.sleep(1)
