@@ -1,2 +1,3 @@
 a = "pollo"
-print(a)
+while (True):
+    print(a)
