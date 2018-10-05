@@ -52,7 +52,7 @@ bot = Bot(comments_file=config_file.COMMENTS_FILE,
           stop_words=(),
           verbosity=True,
           )
-bot.login(username="stefano.poma97", password="mazia979797")
+bot.login(username="stefano.nature", password="maziamazia97")
 bot.logger.info("ULTIMATE script. Safe to run 24/7!")
 
 f = open("hashtag_database.txt", 'r')
@@ -119,6 +119,7 @@ def follow_users_from_hastag_file():
     else:
         print("inizio a seguire")
         bot.follow_users(bot.get_hashtag_users(random_hashtag_file_follow.random())[:20])
+
 
 def block_follow():
     print("blocca follow")

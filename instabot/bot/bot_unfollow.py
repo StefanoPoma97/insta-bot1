@@ -53,4 +53,4 @@ def unfollow_non_followers(self, n_to_unfollows=None):
 
 
 def unfollow_everyone(self):
-    self.unfollow_users(self.following)
+    self.unfollow_users(self.following[:2])
