@@ -75,7 +75,7 @@ def stats():
 
 def like_hashtags():
     print("like_hashtag")
-    bot.like_hashtag(random_hashtag_file_like.random(), amount=30)
+    bot.like_hashtag(random_hashtag_file_like.random(), amount=50)
     #bot.like_hashtag(random.choice(hashtag_file_like_list), amount=30)
 
 
@@ -305,7 +305,7 @@ if (argv[1] == "day"):
     like_timeline()
     follow_users_from_hastag_file()
     schedule.every(65).minutes.do(run_threaded, like_hashtags)  # amount=30 delay=60 max_a_day=1000
-    schedule.every(113).minutes.do(run_threaded, like_timeline)  # amount=20 delay=60 max_a_day=1000
+    #schedule.every(113).minutes.do(run_threaded, like_timeline)  # amount=20 delay=60 max_a_day=1000
     schedule.every(1).hours.do(run_threaded, follow_users_from_hastag_file)  #25 ogni volta
 
     while True:
