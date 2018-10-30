@@ -219,6 +219,10 @@ if (argv[1] == "whitelist"):
     print("creo whitelist")
     put_following_in_whitelist()
 
+if (argv[1] == "like"):
+    print("lascio like")
+    like_hashtags()
+
 if (argv[1] == "hash"):
     print("Seguo utenti da file hashtag")   #prendo da limite giornaliero e delay adeguato
     follow_users_from_hastag_file()
