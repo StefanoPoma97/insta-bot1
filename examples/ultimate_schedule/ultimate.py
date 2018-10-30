@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import random
+import sys
+sys.path.insert(0,'/home/stefano/Documenti/insta-bot1/instabot')
 from glob import glob
 import schedule
 from instabot import Bot, utils

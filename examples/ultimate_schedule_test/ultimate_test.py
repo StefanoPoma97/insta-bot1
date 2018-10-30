@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 import random
+import sys
+import sys
+sys.path.insert(0, "/home/stefanopoma97/bot//insta-bot1")
+print(sys)
 from glob import glob
 import schedule
 from instabot import Bot, utils
@@ -302,8 +306,8 @@ if (argv[1] == "all"):
 if (argv[1] == "day"):
     schedule.every(1).hour.do(run_threaded, stats)
     like_hashtags()
-    like_timeline()
-    follow_users_from_hastag_file()
+    #like_timeline()
+    #follow_users_from_hastag_file()
     schedule.every(65).minutes.do(run_threaded, like_hashtags)  # amount=30 delay=60 max_a_day=1000
     #schedule.every(113).minutes.do(run_threaded, like_timeline)  # amount=20 delay=60 max_a_day=1000
     schedule.every(1).hours.do(run_threaded, follow_users_from_hastag_file)  #25 ogni volta
