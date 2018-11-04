@@ -208,7 +208,7 @@ def run_threaded(job_fn):
     job_thread = threading.Thread(target=job_fn)
     job_thread.start()
 
-
+print("yoooooooo"+argv[1])
 like_hashtags()
 while True:
     schedule.run_pending()
