@@ -209,7 +209,7 @@ def run_threaded(job_fn):
     job_thread.start()
 
 
-like_user_followers()
+like_hashtags()
 while True:
     schedule.run_pending()
     time.sleep(1)

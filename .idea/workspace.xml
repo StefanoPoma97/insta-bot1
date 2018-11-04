@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0cafb6-2f6f-4180-a77e-496c6834bfeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule/stefano.poma97.checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ultimate_schedule/stefano.poma97.checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/stefano.nature.checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ultimate_schedule_test/stefano.nature.checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="log" value="1" />
-          <entry key="py" value="46" />
+          <entry key="py" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="46" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,10 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test (copia).py">
+        <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1615">
-              <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+            <state relative-caret-position="185">
+              <caret line="211" column="15" selection-start-line="211" selection-start-column="15" selection-end-line="211" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -124,6 +125,7 @@
         <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test.py" />
         <option value="$PROJECT_DIR$/examples/like_user_followers.py" />
         <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test (copia).py" />
+        <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test2.py" />
       </list>
     </option>
   </component>
@@ -359,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="268" column="21" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/like_user_followers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -377,6 +372,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1615">
           <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="268" column="21" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="211" column="15" selection-start-line="211" selection-start-column="15" selection-end-line="211" selection-end-column="15" />
         </state>
       </provider>
     </entry>
