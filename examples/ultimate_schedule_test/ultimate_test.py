@@ -87,6 +87,10 @@ def like_timeline():
     print("like_timeline")
     bot.like_timeline(amount=20)
 
+def like_user_followers():
+    print("like_user_followers")
+    bot.like_followers(argv[2], nlikes=2, nfollows=20)
+
 
 def like_followers_from_random_user_file():
     print("like_from_hashtag")
@@ -247,6 +251,22 @@ if (argv[1] == "like"):
     # print(hashtag_file_like_list)
     # print("like from hashtag")
     like_hashtags()
+
+if (argv[1] == "likefollowers"):
+    like_user_followers()
+    schedule.every(35).minutes.do(run_threaded, like_user_followers)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+if (argv[1] == "likeonly"):
+    like_hashtags()
+    schedule.every(35).minutes.do(run_threaded, like_hashtags)  # amount=30 delay=60 max_a_day=1000
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
 
 
 if (argv[1] == "all"):
