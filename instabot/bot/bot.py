@@ -600,8 +600,8 @@ class Bot(object):
     def check_user(self, user, filter_closed_acc=False, unfollowing=False):
         return check_user(self, user, filter_closed_acc, unfollowing)
 
-    #def check_user(self, user, unfollowing=False):
-     #   return check_user(self, user, unfollowing)
+    def check_user(self, user, unfollowing=False):
+       return check_user(self, user, unfollowing)
 
     def check_not_bot(self, user):
         return check_not_bot(self, user)
