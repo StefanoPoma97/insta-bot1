@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc0cafb6-2f6f-4180-a77e-496c6834bfeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/ultimate_schedule/stefano.poma97.checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/examples/ultimate_schedule/stefano.poma97.checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instabot/bot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/instabot/bot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtualenv-insta-bot1/lib/python3.5/site-packages/instabot/bot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/virtualenv-insta-bot1/lib/python3.5/site-packages/instabot/bot/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,25 +27,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="log" value="1" />
-          <entry key="py" value="52" />
+          <entry key="py" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="52" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="779" />
+          <entry key="py" value="780" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="779" />
+          <entry key="Python" value="780" />
         </counts>
       </usages-collector>
     </session>
@@ -74,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instabot/bot/bot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
-              <caret line="604" column="4" selection-start-line="604" selection-start-column="4" selection-end-line="604" selection-end-column="4" />
+              <caret line="604" selection-start-line="604" selection-end-line="604" />
             </state>
           </provider>
         </entry>
@@ -97,6 +96,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="586" column="69" lean-forward="true" selection-start-line="585" selection-start-column="4" selection-end-line="586" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -138,7 +146,6 @@
         <option value="$PROJECT_DIR$/virtualenv-insta-bot1/lib/python3.5/site-packages/instabot/bot/bot_unfollow.py" />
         <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/__init__.py" />
         <option value="$PROJECT_DIR$/examples/ultimate_schedule/ultimate.py" />
         <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/ultimate_test.py" />
         <option value="$PROJECT_DIR$/examples/like_user_followers.py" />
@@ -147,6 +154,8 @@
         <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/like_user.py" />
         <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/like_hashtag.py" />
         <option value="$PROJECT_DIR$/instabot/bot/bot.py" />
+        <option value="$PROJECT_DIR$/virtualenv-insta-bot1/lib/python3.5/site-packages/instabot/bot/__init__.py" />
+        <option value="$PROJECT_DIR$/examples/ultimate_schedule_test/__init__.py" />
       </list>
     </option>
   </component>
@@ -194,7 +203,8 @@
             <path>
               <item name="insta-bot1" type="b2602c69:ProjectViewProjectNode" />
               <item name="insta-bot1" type="462c0819:PsiDirectoryNode" />
-              <item name="instabot" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="ultimate_schedule_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +250,7 @@
     <frame x="0" y="-1" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +261,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32847896" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32847896" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -345,7 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/__init__.py" />
     <entry file="file://$PROJECT_DIR$/examples/like_users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90" />
@@ -410,6 +419,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/instabot/bot/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualenv-insta-bot1/lib/python3.5/site-packages/instabot/bot/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/virtualenv-insta-bot1/lib/python3.5/site-packages/instabot/bot/bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -417,10 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instabot/bot/bot.py">
+    <entry file="file://$PROJECT_DIR$/examples/ultimate_schedule_test/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="604" column="4" selection-start-line="604" selection-start-column="4" selection-end-line="604" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
