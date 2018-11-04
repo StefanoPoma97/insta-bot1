@@ -208,8 +208,9 @@ def run_threaded(job_fn):
     job_thread = threading.Thread(target=job_fn)
     job_thread.start()
 
-print("yoooooooo"+argv[1])
+print("inizio")
 like_hashtags()
+schedule.every(35).minutes.do(run_threaded, like_hashtags)
 while True:
     schedule.run_pending()
     time.sleep(1)
