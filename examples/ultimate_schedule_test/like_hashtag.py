@@ -3,7 +3,6 @@ import random
 import sys
 import sys
 sys.path.insert(0, "/home/stefanopoma97/bot//insta-bot1")
-print(sys)
 from glob import glob
 import schedule
 from instabot import Bot, utils
@@ -57,7 +56,7 @@ bot = Bot(comments_file=config_file.COMMENTS_FILE,
           verbosity=True,
           )
 bot.login(username="stefano.nature", password="maziamazia97")
-bot.logger.info("ULTIMATE script. Safe to run 24/7!")
+bot.logger.info("LIKE SCRIPT")
 
 f = open("hashtag_database.txt", 'r')
 hashtag_file_like_list = [f.read().split('\n')]
@@ -80,7 +79,7 @@ def stats():
 def like_hashtags():
     print("like_hashtag")
     bot.like_hashtag(random_hashtag_file_like.random(), amount=50)
-    #bot.like_hashtag(random.choice(hashtag_file_like_list), amount=30)
+
 
 
 def like_timeline():
@@ -208,11 +207,10 @@ def run_threaded(job_fn):
     job_thread = threading.Thread(target=job_fn)
     job_thread.start()
 
-print("inizio")
+
 like_hashtags()
-schedule.every(35).minutes.do(run_threaded, like_hashtags)
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+#while True:
+#    schedule.run_pending()
+#    time.sleep(1)
 
 
