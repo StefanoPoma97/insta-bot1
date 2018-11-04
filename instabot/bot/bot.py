@@ -603,6 +603,9 @@ class Bot(object):
     def check_not_bot(self, user):
         return check_not_bot(self, user)
 
+    def check_user(self, user, filter_closed_acc=False, unfollowing=False):
+        return check_user(self, user, filter_closed_acc, unfollowing)
+
     # support
 
     def check_if_file_exists(self, file_path, quiet=False):
